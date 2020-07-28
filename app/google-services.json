@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "259003629288",
+    "firebase_url": "https://rhdmf-36825.firebaseio.com",
+    "project_id": "rhdmf-36825",
+    "storage_bucket": "rhdmf-36825.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259003629288:android:64634ff3016c95182bd35d",
+        "android_client_info": {
+          "package_name": "com.example.rhdmf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259003629288-n137o22kudd33l1rk0t38uvkf052o19c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7XG5kmflzFcFWs1ZH5B_pd3ZhYTyLVKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259003629288-n137o22kudd33l1rk0t38uvkf052o19c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

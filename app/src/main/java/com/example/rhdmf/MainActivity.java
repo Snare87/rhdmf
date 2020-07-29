@@ -24,14 +24,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView tvNickname = findViewById(R.id.tvNickname);
-        TextView tvProfile = findViewById(R.id.tvProfile);
+//        TextView tvProfile = findViewById(R.id.tvProfile);
 
         Intent intent = getIntent();
         strNickname = intent.getStringExtra("nikname");
-        strProfile = intent.getStringExtra("profile");
+//        strProfile = intent.getStringExtra("profile");
 
         tvNickname.setText(strNickname);
-        tvProfile.setText(strProfile);
+//        tvProfile.setText(strProfile);
+
+        Button AdminButton = findViewById(R.id.AdminButton);
+        AdminButton.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v){
+                        Intent intent = new Intent(getApplicationContext(), AdminActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
+//        if(!userID.equals("dream9522")){
+//            AdminButton.setVisibility(View.GONE);
+//        }
     }
 }
 
